@@ -23,14 +23,14 @@
             "description": "Nome da unidade hospitalar da FHEMIG onde a cirurgia foi realizada."
           },
           {
-            "name": "mes",
-            "type": "string",
-            "description": "Mês de referência do registro (por extenso ou numérico)."
-          },
-          {
             "name": "ano",
             "type": "integer",
             "description": "Ano de referência do registro."
+          },
+          {
+            "name": "mes",
+            "type": "string",
+            "description": "Mês de referência do registro (por extenso ou numérico)."
           },
           {
             "name": "porte",
@@ -152,22 +152,42 @@
             "description": "Nome da unidade hospitalar da FHEMIG onde a cirurgia foi realizada."
           },
           {
-            "name": "mes",
-            "type": "string",
-            "description": "Mês de referência do registro (por extenso ou numérico)."
-          },
-          {
             "name": "ano",
             "type": "integer",
             "description": "Ano de referência do registro."
           },
           {
-            "name": "porte",
+            "name": "mes",
             "type": "string",
-            "description": "Classificação do porte cirúrgico (I, II, III ou IV)."
+            "description": "Mês de referência do registro (por extenso ou numérico)."
           },
           {
-            "name": "quantidade",
+            "name": "porte I",
+            "type": "string",
+            "description": "Cirurgia de Porte I (no SIG, cirurgia com até duas horas de duração e no Tasy, cirurgia de pequeno porte)."
+          },
+          {
+            "name": "porte II",
+            "type": "string",
+            "description": "Cirurgia de Porte II (no SIG, cirurgia com até quatro horas de duração e no Tasy, cirurgia de médio porte)."
+          },
+          {
+            "name": "porte III",
+            "type": "string",
+            "description": "Cirurgia de Porte III (no SIG, cirurgia com até seis horas de duração e no Tasy, cirurgia de grande porte)."
+          },
+          {
+            "name": "porte IV",
+            "type": "string",
+            "description": "Cirurgia de Porte IV (no SIG, cirurgia com mais de seis horas de duração e no Tasy, cirurgia de porte superior)."
+          },
+          {
+            "name": "sem_porte",
+            "type": "string",
+            "description": "Porte da cirurgia não informado."
+          },
+          {
+            "name": "total",
             "type": "integer",
             "description": "Número de cirurgias realizadas naquele porte, mês e unidade."
           }
