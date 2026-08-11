@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.101,
+  "time": 0.117,
   "errors": [],
   "tasks": [
     {
@@ -53,7 +53,7 @@
           "rows": 504
         }
       },
-      "time": 0.022,
+      "time": 0.029,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -12784,7 +12784,7 @@
           "rows": 497
         }
       },
-      "time": 0.013,
+      "time": 0.017,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -12862,7 +12862,7 @@
           "rows": 512
         }
       },
-      "time": 0.013,
+      "time": 0.017,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -12954,13 +12954,13 @@
         "scheme": "file",
         "title": "Cirurgias realizadas por porte - a partir de 2019",
         "stats": {
-          "hash": "eba6cc9c92f7e99c2301367923470d55",
-          "bytes": 25979,
+          "hash": "abfc047fa79f5f5333954978a8fa58ed",
+          "bytes": 26550,
           "fields": 9,
-          "rows": 890
+          "rows": 910
         }
       },
-      "time": 0.021,
+      "time": 0.027,
       "scope": [
         "hash-count-error",
         "byte-count-error",
