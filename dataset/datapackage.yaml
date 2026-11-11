@@ -2,14 +2,13 @@ name: cirurgias_porte_fhemig
 title: Cirurgias Porte FHEMIG
 owner_org: fundacao-hospitalar-do-estado-de-minas-gerais-fhemig
 profile: data-package
-
 resources:
-  - description: >
-      Dados de Cirurgias realizadas em bloco cirúrgico por porte.
-      Porte I – Com tempo de duração de até duas horas.
-      Porte II – Com tempo de duração de duas a quatro horas.
-      Porte III – Com tempo de duração de quatro até seis horas.
-      Porte IV – Com tempo de duração acima de seis horas.
+  - description: 'Dados de Cirurgias realizadas em bloco cirúrgico por porte. Porte
+      I – Com tempo de duração de até duas horas. Porte II – Com tempo de duração
+      de duas a quatro horas. Porte III – Com tempo de duração de quatro até seis
+      horas. Porte IV – Com tempo de duração acima de seis horas.
+
+      '
     dialect:
       delimiter: ;
     encoding: utf-8-sig
@@ -37,13 +36,12 @@ resources:
           description: Número de cirurgias realizadas naquele porte, mês e unidade.
     scheme: file
     title: Cirurgias realizadas por porte - 2016
+  - description: 'Dados de Cirurgias realizadas em bloco cirúrgico por porte. Porte
+      I – Com tempo de duração de até duas horas. Porte II – Com tempo de duração
+      de duas a quatro horas. Porte III – Com tempo de duração de quatro até seis
+      horas. Porte IV – Com tempo de duração acima de seis horas.
 
-  - description: >
-      Dados de Cirurgias realizadas em bloco cirúrgico por porte.
-      Porte I – Com tempo de duração de até duas horas.
-      Porte II – Com tempo de duração de duas a quatro horas.
-      Porte III – Com tempo de duração de quatro até seis horas.
-      Porte IV – Com tempo de duração acima de seis horas.
+      '
     dialect:
       delimiter: ;
     encoding: utf-8-sig
@@ -71,13 +69,12 @@ resources:
           description: Número de cirurgias realizadas naquele porte, mês e unidade.
     scheme: file
     title: Cirurgias realizadas por porte - 2017
+  - description: 'Dados de Cirurgias realizadas em bloco cirúrgico por porte. Porte
+      I – Com tempo de duração de até duas horas. Porte II – Com tempo de duração
+      de duas a quatro horas. Porte III – Com tempo de duração de quatro até seis
+      horas. Porte IV – Com tempo de duração acima de seis horas.
 
-  - description: >
-      Dados de Cirurgias realizadas em bloco cirúrgico por porte.
-      Porte I – Com tempo de duração de até duas horas.
-      Porte II – Com tempo de duração de duas a quatro horas.
-      Porte III – Com tempo de duração de quatro até seis horas.
-      Porte IV – Com tempo de duração acima de seis horas.
+      '
     dialect:
       delimiter: ;
     encoding: utf-8-sig
@@ -105,20 +102,118 @@ resources:
           description: Número de cirurgias realizadas naquele porte, mês e unidade.
     scheme: file
     title: Cirurgias realizadas por porte - 2018
+  - description: 'Dados de Cirurgias realizadas em bloco cirúrgico por porte. Porte
+      I – Com tempo de duração de até duas horas. Porte II – Com tempo de duração
+      de duas a quatro horas. Porte III – Com tempo de duração de quatro até seis
+      horas. Porte IV – Com tempo de duração acima de seis horas.
 
-  - description: >
-      Dados de Cirurgias realizadas em bloco cirúrgico por porte.
-      Porte I – Com tempo de duração de até duas horas.
-      Porte II – Com tempo de duração de duas a quatro horas.
-      Porte III – Com tempo de duração de quatro até seis horas.
-      Porte IV – Com tempo de duração acima de seis horas.
+      '
     dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
     hashing: md5
-    name: cirurgia_2019
-    path: data/cirurgia_2019.csv
+    name: cirurgia_2020
+    path: data/cirurgia_2020.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: unidade
+          type: string
+          description: Nome da unidade hospitalar da FHEMIG onde a cirurgia foi realizada.
+        - name: mes
+          type: string
+          description: Mês de referência do registro (por extenso ou numérico).
+        - name: ano
+          type: integer
+          description: Ano de referência do registro.
+        - name: porte
+          type: string
+          description: Classificação do porte cirúrgico (I, II, III ou IV).
+        - name: quantidade
+          type: integer
+          description: Número de cirurgias realizadas naquele porte, mês e unidade.
+    scheme: file
+    title: Cirurgias realizadas por porte - 2020
+  - description: 'Dados de Cirurgias realizadas em bloco cirúrgico por porte. Porte
+      I – Com tempo de duração de até duas horas. Porte II – Com tempo de duração
+      de duas a quatro horas. Porte III – Com tempo de duração de quatro até seis
+      horas. Porte IV – Com tempo de duração acima de seis horas.
+
+      '
+    dialect:
+      delimiter: ;
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: cirurgia_2021
+    path: data/cirurgia_2021.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: unidade
+          type: string
+          description: Nome da unidade hospitalar da FHEMIG onde a cirurgia foi realizada.
+        - name: mes
+          type: string
+          description: Mês de referência do registro (por extenso ou numérico).
+        - name: ano
+          type: integer
+          description: Ano de referência do registro.
+        - name: porte
+          type: string
+          description: Classificação do porte cirúrgico (I, II, III ou IV).
+        - name: quantidade
+          type: integer
+          description: Número de cirurgias realizadas naquele porte, mês e unidade.
+    scheme: file
+    title: Cirurgias realizadas por porte - 2021
+  - description: 'Dados de Cirurgias realizadas em bloco cirúrgico por porte. Porte
+      I – Com tempo de duração de até duas horas. Porte II – Com tempo de duração
+      de duas a quatro horas. Porte III – Com tempo de duração de quatro até seis
+      horas. Porte IV – Com tempo de duração acima de seis horas.
+
+      '
+    dialect:
+      delimiter: ;
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: cirurgia_2023
+    path: data/cirurgia_2023.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: unidade
+          type: string
+          description: Nome da unidade hospitalar da FHEMIG onde a cirurgia foi realizada.
+        - name: mes
+          type: string
+          description: Mês de referência do registro (por extenso ou numérico).
+        - name: ano
+          type: integer
+          description: Ano de referência do registro.
+        - name: porte
+          type: string
+          description: Classificação do porte cirúrgico (I, II, III ou IV).
+        - name: quantidade
+          type: integer
+          description: Número de cirurgias realizadas naquele porte, mês e unidade.
+    scheme: file
+    title: Cirurgias realizadas por porte - 2023
+  - description: 'Dados de Cirurgias realizadas em bloco cirúrgico por porte. Porte
+      I – Com tempo de duração de até duas horas. Porte II – Com tempo de duração
+      de duas a quatro horas. Porte III – Com tempo de duração de quatro até seis
+      horas. Porte IV – Com tempo de duração acima de seis horas.
+
+      '
+    dialect:
+      delimiter: ;
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: cirurgia_2025
+    path: data/cirurgia_2025.csv
     profile: tabular-data-resource
     schema:
       fields:
@@ -131,25 +226,11 @@ resources:
         - name: mes
           type: string
           description: Mês de referência do registro (por extenso ou numérico).
-        - name: porte I
+        - name: porte
           type: string
-          description: Cirurgia de Porte I (no SIG, cirurgia com até duas horas de duração e no Tasy, cirurgia de pequeno porte).
-        - name: porte II
-          type: string
-          description: Cirurgia de Porte II (no SIG, cirurgia com até quatro horas de duração e no Tasy, cirurgia de médio porte).
-        - name: porte III
-          type: string
-          description: Cirurgia de Porte III (no SIG, cirurgia com até seis horas de duração e no Tasy, cirurgia de grande porte).
-        - name: porte IV
-          type: string
-          description: Cirurgia de Porte IV (no SIG, cirurgia com mais de seis horas de duração e no Tasy, cirurgia de porte superior).
-        - name: sem_porte
-          type: string
-          description: Porte da cirurgia não informado.
-        - name: total
+          description: Classificação do porte cirúrgico (I, II, III ou IV).
+        - name: quantidade
           type: integer
           description: Número de cirurgias realizadas naquele porte, mês e unidade.
     scheme: file
-    title: Cirurgias realizadas por porte - a partir de 2019
-
-title: Cirurgias Porte FHEMIG
+    title: Cirurgias realizadas por porte - 2025
