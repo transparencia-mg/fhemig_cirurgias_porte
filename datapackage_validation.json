@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.308,
+  "time": 0.158,
   "errors": [],
   "tasks": [
     {
@@ -53,7 +53,7 @@
           "rows": 504
         }
       },
-      "time": 0.037,
+      "time": 0.04,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -12784,7 +12784,7 @@
           "rows": 497
         }
       },
-      "time": 0.019,
+      "time": 0.012,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -12862,241 +12862,7 @@
           "rows": 512
         }
       },
-      "time": 0.019,
-      "scope": [
-        "hash-count-error",
-        "byte-count-error",
-        "field-count-error",
-        "row-count-error",
-        "blank-header",
-        "extra-label",
-        "missing-label",
-        "blank-label",
-        "duplicate-label",
-        "incorrect-label",
-        "blank-row",
-        "primary-key-error",
-        "foreign-key-error",
-        "extra-cell",
-        "missing-cell",
-        "type-error",
-        "constraint-error",
-        "unique-error"
-      ],
-      "partial": false,
-      "errors": [],
-      "stats": {
-        "errors": 0
-      },
-      "valid": true
-    },
-    {
-      "resource": {
-        "description": "Dados de Cirurgias realizadas em bloco cirúrgico por porte. Porte I – Com tempo de duração de até duas horas. Porte II – Com tempo de duração de duas a quatro horas. Porte III – Com tempo de duração de quatro até seis horas. Porte IV – Com tempo de duração acima de seis horas.\n",
-        "dialect": {
-          "delimiter": ";"
-        },
-        "encoding": "utf-8-sig",
-        "format": "csv",
-        "hashing": "md5",
-        "name": "cirurgia_2020",
-        "path": "data/cirurgia_2020.csv",
-        "profile": "tabular-data-resource",
-        "schema": {
-          "fields": [
-            {
-              "name": "unidade",
-              "type": "string",
-              "description": "Nome da unidade hospitalar da FHEMIG onde a cirurgia foi realizada."
-            },
-            {
-              "name": "mes",
-              "type": "string",
-              "description": "Mês de referência do registro (por extenso ou numérico)."
-            },
-            {
-              "name": "ano",
-              "type": "integer",
-              "description": "Ano de referência do registro."
-            },
-            {
-              "name": "porte",
-              "type": "string",
-              "description": "Classificação do porte cirúrgico (I, II, III ou IV)."
-            },
-            {
-              "name": "quantidade",
-              "type": "integer",
-              "description": "Número de cirurgias realizadas naquele porte, mês e unidade."
-            }
-          ]
-        },
-        "scheme": "file",
-        "title": "Cirurgias realizadas por porte - 2020",
-        "stats": {
-          "hash": "130676ad9a16f13d572e6da9e3cfbcc4",
-          "bytes": 20232,
-          "fields": 5,
-          "rows": 463
-        }
-      },
-      "time": 0.018,
-      "scope": [
-        "hash-count-error",
-        "byte-count-error",
-        "field-count-error",
-        "row-count-error",
-        "blank-header",
-        "extra-label",
-        "missing-label",
-        "blank-label",
-        "duplicate-label",
-        "incorrect-label",
-        "blank-row",
-        "primary-key-error",
-        "foreign-key-error",
-        "extra-cell",
-        "missing-cell",
-        "type-error",
-        "constraint-error",
-        "unique-error"
-      ],
-      "partial": false,
-      "errors": [],
-      "stats": {
-        "errors": 0
-      },
-      "valid": true
-    },
-    {
-      "resource": {
-        "description": "Dados de Cirurgias realizadas em bloco cirúrgico por porte. Porte I – Com tempo de duração de até duas horas. Porte II – Com tempo de duração de duas a quatro horas. Porte III – Com tempo de duração de quatro até seis horas. Porte IV – Com tempo de duração acima de seis horas.\n",
-        "dialect": {
-          "delimiter": ";"
-        },
-        "encoding": "utf-8-sig",
-        "format": "csv",
-        "hashing": "md5",
-        "name": "cirurgia_2021",
-        "path": "data/cirurgia_2021.csv",
-        "profile": "tabular-data-resource",
-        "schema": {
-          "fields": [
-            {
-              "name": "unidade",
-              "type": "string",
-              "description": "Nome da unidade hospitalar da FHEMIG onde a cirurgia foi realizada."
-            },
-            {
-              "name": "mes",
-              "type": "string",
-              "description": "Mês de referência do registro (por extenso ou numérico)."
-            },
-            {
-              "name": "ano",
-              "type": "integer",
-              "description": "Ano de referência do registro."
-            },
-            {
-              "name": "porte",
-              "type": "string",
-              "description": "Classificação do porte cirúrgico (I, II, III ou IV)."
-            },
-            {
-              "name": "quantidade",
-              "type": "integer",
-              "description": "Número de cirurgias realizadas naquele porte, mês e unidade."
-            }
-          ]
-        },
-        "scheme": "file",
-        "title": "Cirurgias realizadas por porte - 2021",
-        "stats": {
-          "hash": "550cc499f2730f28bbb5f1b4bf9aa863",
-          "bytes": 20263,
-          "fields": 5,
-          "rows": 463
-        }
-      },
-      "time": 0.018,
-      "scope": [
-        "hash-count-error",
-        "byte-count-error",
-        "field-count-error",
-        "row-count-error",
-        "blank-header",
-        "extra-label",
-        "missing-label",
-        "blank-label",
-        "duplicate-label",
-        "incorrect-label",
-        "blank-row",
-        "primary-key-error",
-        "foreign-key-error",
-        "extra-cell",
-        "missing-cell",
-        "type-error",
-        "constraint-error",
-        "unique-error"
-      ],
-      "partial": false,
-      "errors": [],
-      "stats": {
-        "errors": 0
-      },
-      "valid": true
-    },
-    {
-      "resource": {
-        "description": "Dados de Cirurgias realizadas em bloco cirúrgico por porte. Porte I – Com tempo de duração de até duas horas. Porte II – Com tempo de duração de duas a quatro horas. Porte III – Com tempo de duração de quatro até seis horas. Porte IV – Com tempo de duração acima de seis horas.\n",
-        "dialect": {
-          "delimiter": ";"
-        },
-        "encoding": "utf-8-sig",
-        "format": "csv",
-        "hashing": "md5",
-        "name": "cirurgia_2023",
-        "path": "data/cirurgia_2023.csv",
-        "profile": "tabular-data-resource",
-        "schema": {
-          "fields": [
-            {
-              "name": "unidade",
-              "type": "string",
-              "description": "Nome da unidade hospitalar da FHEMIG onde a cirurgia foi realizada."
-            },
-            {
-              "name": "mes",
-              "type": "string",
-              "description": "Mês de referência do registro (por extenso ou numérico)."
-            },
-            {
-              "name": "ano",
-              "type": "integer",
-              "description": "Ano de referência do registro."
-            },
-            {
-              "name": "porte",
-              "type": "string",
-              "description": "Classificação do porte cirúrgico (I, II, III ou IV)."
-            },
-            {
-              "name": "quantidade",
-              "type": "integer",
-              "description": "Número de cirurgias realizadas naquele porte, mês e unidade."
-            }
-          ]
-        },
-        "scheme": "file",
-        "title": "Cirurgias realizadas por porte - 2023",
-        "stats": {
-          "hash": "f4e38cd71c126f5c1fd7bc1b0cbc5f5d",
-          "bytes": 20408,
-          "fields": 5,
-          "rows": 464
-        }
-      },
-      "time": 0.018,
+      "time": 0.012,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -13174,7 +12940,7 @@
           "rows": 3915
         }
       },
-      "time": 0.067,
+      "time": 0.044,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -13263,7 +13029,7 @@
           "rows": 942
         }
       },
-      "time": 0.039,
+      "time": 0.024,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -13319,7 +13085,7 @@
   ],
   "stats": {
     "errors": 507,
-    "tasks": 8
+    "tasks": 5
   },
   "valid": false
 }
