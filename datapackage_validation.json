@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.18,
+  "time": 0.308,
   "errors": [],
   "tasks": [
     {
@@ -53,7 +53,7 @@
           "rows": 504
         }
       },
-      "time": 0.032,
+      "time": 0.037,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -12784,7 +12784,7 @@
           "rows": 497
         }
       },
-      "time": 0.013,
+      "time": 0.019,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -12862,7 +12862,7 @@
           "rows": 512
         }
       },
-      "time": 0.013,
+      "time": 0.019,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -12940,7 +12940,7 @@
           "rows": 463
         }
       },
-      "time": 0.012,
+      "time": 0.018,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -13018,7 +13018,7 @@
           "rows": 463
         }
       },
-      "time": 0.013,
+      "time": 0.018,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -13096,7 +13096,7 @@
           "rows": 464
         }
       },
-      "time": 0.013,
+      "time": 0.018,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -13174,7 +13174,7 @@
           "rows": 3915
         }
       },
-      "time": 0.049,
+      "time": 0.067,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -13201,11 +13201,125 @@
         "errors": 0
       },
       "valid": true
+    },
+    {
+      "resource": {
+        "path": "data/cirurgia.csv",
+        "name": "cirurgia",
+        "profile": "tabular-data-resource",
+        "scheme": "file",
+        "format": "csv",
+        "hashing": "md5",
+        "encoding": "utf-8-sig",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "schema": {
+          "fields": [
+            {
+              "name": "unidade",
+              "type": "string"
+            },
+            {
+              "name": "ano",
+              "type": "string"
+            },
+            {
+              "name": "mes",
+              "type": "geopoint"
+            },
+            {
+              "name": "porte_i",
+              "type": "string"
+            },
+            {
+              "name": "porte_ii",
+              "type": "string"
+            },
+            {
+              "name": "porte_iii",
+              "type": "geopoint"
+            },
+            {
+              "name": "porte_iv",
+              "type": "geopoint"
+            },
+            {
+              "name": "sem_porte",
+              "type": "string"
+            },
+            {
+              "name": "total",
+              "type": "string"
+            }
+          ]
+        },
+        "title": "Insira um título humanamente legível para este recurso.",
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "stats": {
+          "hash": "cc2b556a55fee3b1b55cbee06351b0ee",
+          "bytes": 42723,
+          "fields": 9,
+          "rows": 942
+        }
+      },
+      "time": 0.039,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [
+        {
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "rowNumber": 941,
+          "rowPosition": 942,
+          "code": "blank-row",
+          "name": "Blank Row",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "",
+          "message": "Row at position \"942\" is completely blank",
+          "description": "This row is empty. A row should contain at least one value."
+        }
+      ],
+      "stats": {
+        "errors": 1
+      },
+      "valid": false
     }
   ],
   "stats": {
-    "errors": 506,
-    "tasks": 7
+    "errors": 507,
+    "tasks": 8
   },
   "valid": false
 }
