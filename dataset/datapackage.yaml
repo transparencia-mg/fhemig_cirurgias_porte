@@ -127,7 +127,3 @@ resources:
           description: Número de cirurgias realizadas naquele porte, mês e unidade.
     scheme: file
     title: Cirurgias realizadas por porte a partir de 2019
-  - description: Dados de Cirurgias realizadas em bloco cirúrgico por porte. Porte
-      I – Com tempo de duração de até duas horas. Porte II – Com tempo de duração
-      de duas a quatro horas. Porte III – Com tempo de duração de quatro até seis
-      horas. Porte IV – Com tempo de duração acima de seis horas.
