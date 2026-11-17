@@ -113,8 +113,8 @@ resources:
     encoding: utf-8-sig
     format: csv
     hashing: md5
-    name: cirurgia_2025
-    path: data/cirurgia_2025.csv
+    name: cirurgia
+    path: data/cirurgia.csv
     profile: tabular-data-resource
     schema:
       fields:
@@ -134,35 +134,8 @@ resources:
           type: integer
           description: Número de cirurgias realizadas naquele porte, mês e unidade.
     scheme: file
-    title: Cirurgias realizadas por porte - 2025
-  - path: data/cirurgia.csv
-    name: cirurgia
-    profile: tabular-data-resource
-    scheme: file
-    format: csv
-    hashing: md5
-    encoding: utf-8-sig
-    dialect:
-      delimiter: ;
-    schema:
-      fields:
-        - name: unidade
-          type: string
-        - name: ano
-          type: string
-        - name: mes
-          type: geopoint
-        - name: porte_i
-          type: string
-        - name: porte_ii
-          type: string
-        - name: porte_iii
-          type: geopoint
-        - name: porte_iv
-          type: geopoint
-        - name: sem_porte
-          type: string
-        - name: total
-          type: string
-    title: Insira um título humanamente legível para este recurso.
-    description: Insira a descrição/explicação detalhada deste recurso.
+    title: Cirurgias realizadas por porte
+  - description: 'Dados de Cirurgias realizadas em bloco cirúrgico por porte. Porte
+      I – Com tempo de duração de até duas horas. Porte II – Com tempo de duração
+      de duas a quatro horas. Porte III – Com tempo de duração de quatro até seis
+      horas. Porte IV – Com tempo de duração acima de seis horas.
