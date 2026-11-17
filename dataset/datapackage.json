@@ -5,7 +5,7 @@
   "profile": "data-package",
   "resources": [
     {
-      "description": "Dados de Cirurgias realizadas em bloco cirúrgico por porte. Porte I – Com tempo de duração de até duas horas. Porte II – Com tempo de duração de duas a quatro horas. Porte III – Com tempo de duração de quatro até seis horas. Porte IV – Com tempo de duração acima de seis horas.\n",
+      "description": "Dados de Cirurgias realizadas em bloco cirúrgico por porte. Porte I – Com tempo de duração de até duas horas. Porte II – Com tempo de duração de duas a quatro horas. Porte III – Com tempo de duração de quatro até seis horas. Porte IV – Com tempo de duração acima de seis horas.",
       "dialect": {
         "delimiter": ";"
       },
@@ -48,7 +48,7 @@
       "title": "Cirurgias realizadas por porte - 2016"
     },
     {
-      "description": "Dados de Cirurgias realizadas em bloco cirúrgico por porte. Porte I – Com tempo de duração de até duas horas. Porte II – Com tempo de duração de duas a quatro horas. Porte III – Com tempo de duração de quatro até seis horas. Porte IV – Com tempo de duração acima de seis horas.\n",
+      "description": "Dados de Cirurgias realizadas em bloco cirúrgico por porte. Porte I – Com tempo de duração de até duas horas. Porte II – Com tempo de duração de duas a quatro horas. Porte III – Com tempo de duração de quatro até seis horas. Porte IV – Com tempo de duração acima de seis horas.",
       "dialect": {
         "delimiter": ";"
       },
@@ -91,7 +91,7 @@
       "title": "Cirurgias realizadas por porte - 2017"
     },
     {
-      "description": "Dados de Cirurgias realizadas em bloco cirúrgico por porte. Porte I – Com tempo de duração de até duas horas. Porte II – Com tempo de duração de duas a quatro horas. Porte III – Com tempo de duração de quatro até seis horas. Porte IV – Com tempo de duração acima de seis horas.\n",
+      "description": "Dados de Cirurgias realizadas em bloco cirúrgico por porte. Porte I – Com tempo de duração de até duas horas. Porte II – Com tempo de duração de duas a quatro horas. Porte III – Com tempo de duração de quatro até seis horas. Porte IV – Com tempo de duração acima de seis horas.",
       "dialect": {
         "delimiter": ";"
       },
@@ -134,15 +134,15 @@
       "title": "Cirurgias realizadas por porte - 2018"
     },
     {
-      "description": "Dados de Cirurgias realizadas em bloco cirúrgico por porte. Porte I – Com tempo de duração de até duas horas. Porte II – Com tempo de duração de duas a quatro horas. Porte III – Com tempo de duração de quatro até seis horas. Porte IV – Com tempo de duração acima de seis horas.\n",
+      "description": "Dados de Cirurgias realizadas em bloco cirúrgico por porte. Porte I – Com tempo de duração de até duas horas. Porte II – Com tempo de duração de duas a quatro horas. Porte III – Com tempo de duração de quatro até seis horas. Porte IV – Com tempo de duração acima de seis horas.",
       "dialect": {
         "delimiter": ";"
       },
       "encoding": "utf-8-sig",
       "format": "csv",
       "hashing": "md5",
-      "name": "cirurgia_2025",
-      "path": "data/cirurgia_2025.csv",
+      "name": "cirurgia",
+      "path": "data/cirurgia.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
@@ -174,61 +174,7 @@
         ]
       },
       "scheme": "file",
-      "title": "Cirurgias realizadas por porte - 2025"
-    },
-    {
-      "path": "data/cirurgia.csv",
-      "name": "cirurgia",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8-sig",
-      "dialect": {
-        "delimiter": ";"
-      },
-      "schema": {
-        "fields": [
-          {
-            "name": "unidade",
-            "type": "string"
-          },
-          {
-            "name": "ano",
-            "type": "string"
-          },
-          {
-            "name": "mes",
-            "type": "geopoint"
-          },
-          {
-            "name": "porte_i",
-            "type": "string"
-          },
-          {
-            "name": "porte_ii",
-            "type": "string"
-          },
-          {
-            "name": "porte_iii",
-            "type": "geopoint"
-          },
-          {
-            "name": "porte_iv",
-            "type": "geopoint"
-          },
-          {
-            "name": "sem_porte",
-            "type": "string"
-          },
-          {
-            "name": "total",
-            "type": "string"
-          }
-        ]
-      },
-      "title": "Insira um título humanamente legível para este recurso.",
-      "description": "Insira a descrição/explicação detalhada deste recurso."
+      "title": "Cirurgias realizadas por porte a partir de 2019"
     }
   ]
 }
